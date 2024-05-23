@@ -9,7 +9,7 @@ def generate_response(input_text):
 
 st.title('🦜🔗 Quickstart App')
 
-openai_api_key = st.sidebar.text_input('sk-proj-52CrQQJmttk2g1Q1fsxJT3BlbkFJwuM5N5peBz7iAim2BHKr')
+openai_api_key = st.sidebar.text_input('insert openAI API key')
 
 with st.form('my_form'):
     text = st.text_area('Enter text:', 'What are the three key pieces of advice for learning how to code?')
