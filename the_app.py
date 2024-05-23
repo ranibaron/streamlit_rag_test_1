@@ -1,5 +1,6 @@
 import streamlit as st
 from langchain_community.llms import OpenAI
+from langchain.llms import OpenAI
 
 
 def generate_response(input_text):
